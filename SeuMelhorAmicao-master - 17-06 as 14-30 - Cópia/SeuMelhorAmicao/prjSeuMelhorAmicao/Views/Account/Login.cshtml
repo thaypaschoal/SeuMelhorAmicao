@@ -1,0 +1,52 @@
+﻿@model prjSeuMelhorAmicao.Models.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label class="control-label">
+                    @Html.LabelFor(x => x.Email)
+                </label>
+                <div class="controls">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "span12 =-wrap", maxlength = "100" })
+                    <span class="colorRed help-block ">
+                        @Html.ValidationMessageFor(m => m.Email)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label class="control-label">
+                    @Html.LabelFor(x => x.Senha)
+                </label>
+                <div class="controls">
+                    @Html.PasswordFor(m => m.Senha, new { @class = "span12 =-wrap", maxlength = "25" })
+                    <span class="colorRed help-block ">
+                        @Html.ValidationMessageFor(m => m.Senha)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <input type="submit" class="btn btn-default" value="Logar" />
+    </div>
+
+}
+
+
+
+

@@ -1,0 +1,369 @@
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\ApplicationInsights.config
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe.config
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.rsp
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.exe
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.rsp
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.AppContext.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe.config
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.rsp
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll.config
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.pdb
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\WebGrease.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.pdb
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.xml
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.dll
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.pdb
+C:\Users\gabri\OneDrive\Documentos\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.csprojResolveAssemblyReference.cache
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\ApplicationInsights.config
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe.config
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.rsp
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.exe
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.rsp
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.AppContext.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe.config
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.rsp
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll.config
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.pdb
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\WebGrease.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.pdb
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.xml
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.dll
+C:\Users\gabri\Desktop\SeuMelhorAmicao\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.pdb
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\ApplicationInsights.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.rsp
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.exe
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.rsp
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.AppContext.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.rsp
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.pdb
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\WebGrease.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.pdb
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.csprojResolveAssemblyReference.cache
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.pdb
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\ApplicationInsights.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.rsp
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.exe
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.rsp
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.AppContext.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.rsp
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll.config
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.pdb
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\WebGrease.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.pdb
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.xml
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.csprojResolveAssemblyReference.cache
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.dll
+C:\Users\THAYLA\Desktop\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.pdb
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.csprojResolveAssemblyReference.cache
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\obj\Debug\prjSeuMelhorAmicao.pdb
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\ApplicationInsights.config
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.exe.config
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csc.rsp
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.exe
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\csi.rsp
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.AppContext.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Collections.Immutable.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\System.Reflection.Metadata.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.exe.config
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\vbc.rsp
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\roslyn\VBCSCompiler.exe.config
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.pdb
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Agent.Intercept.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.Web.Infrastructure.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\WebGrease.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Helpers.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Mvc.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Optimization.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.Razor.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Deployment.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\System.Web.WebPages.Razor.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Antlr3.Runtime.pdb
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Newtonsoft.Json.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.ApplicationInsights.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.DependencyCollector.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.WindowsServer.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\Microsoft.AI.Web.xml
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Helpers.resources.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Mvc.resources.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Optimization.resources.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.Razor.resources.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.resources.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+E:\TA FUDENDO TD\SeuMelhorAmicao-master - 17-06 as 14-30 - Cópia\SeuMelhorAmicao\prjSeuMelhorAmicao\bin\prjSeuMelhorAmicao.dll.config
