@@ -38,7 +38,29 @@ namespace prjSeuMelhorAmicao.Models.DAL
 
         }
 
-     
+        public Usuario BuscarInformacoes(int usuarioID)
+        {
+            var conex = new ConectionFactory();
+            string sp = "spBuscarInformacoes";
 
+            //Criando lista de parâmetros e inserindo um a um
+            var parametros = new List<SqlParameter>
+            {
+                new SqlParameter("@usuarioID", usuarioID)
+            };
+
+            DataTable table = conex.ExecutaSpDataTable(sp, parametros);
+
+            if (table.Rows.Count <= 0) return new Usuario();
+
+            return new Usuario()
+            {
+                Id = int.Parse(table.Rows[0]["Id"].ToString()),
+                Nome = table.Rows[0]["Nome"].ToString(),
+                Email = table.Rows[0]["Email"].ToString(),
+                Perfil = new Perfil() { Tipo = table.Rows[0]["Tipo"].ToString() }
+            };
+
+        }
     }
 }

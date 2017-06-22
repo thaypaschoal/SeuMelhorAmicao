@@ -19,7 +19,7 @@ namespace prjSeuMelhorAmicao.Controllers
     {
         private readonly ClienteDAO _clienteDAO;
         private readonly OngDAO _ongDAO;
-
+        
         public AccountController()
         {
             _clienteDAO = new ClienteDAO();
@@ -52,16 +52,11 @@ namespace prjSeuMelhorAmicao.Controllers
                     AccountModel conta = new AccountModel();
 
                     var authCookie = conta.Credenciar(user);
-
-
+                    
                     HttpContext.Response.Cookies.Add(authCookie);
 
-                    if (user.Perfil.Tipo == "Ong")
-                        Ong = user.Id;
-                    else
-                        Cliente = user.Id;
+                    UsuarioInfo = new UsuarioDAO().BuscarInformacoes(user.Id);
 
-                    
                     return RedirectToAction("Index", "Ong");
                 }
 

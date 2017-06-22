@@ -9,53 +9,19 @@ namespace prjSeuMelhorAmicao.Controllers
 {
     public class BaseController : Controller
     {
-        public Usuario Usuario
+     
+        public Usuario UsuarioInfo
         {
             get
             {
-                return (Usuario)Session["Usuario"];
+                return (Usuario)Session["UsuarioInfo"];
             }
             set
             {
-                Session["Usuario"] = value;
+                Session["UsuarioInfo"] = value;
             }
 
         }
 
-        public int Ong
-        {
-            get
-            {
-                return HttpContext.Request.Cookies["Ong"] == null || string.IsNullOrEmpty(HttpContext.Request.Cookies["Ong"].Value)
-                        ? 0
-                        : Convert.ToInt32(HttpContext.Request.Cookies["Ong"].Value);
-            }
-            set
-            {
-                    HttpContext.Response.Cookies.Add(new HttpCookie("Ong")
-                    {
-                        Value = value.ToString()
-                    });
-            }
-
-        }
-
-        public int Cliente
-        {
-            get
-            {
-                return HttpContext.Request.Cookies["Cliente"] == null || string.IsNullOrEmpty(HttpContext.Request.Cookies["Cliente"].Value)
-                        ? 0
-                        : Convert.ToInt32(HttpContext.Request.Cookies["Cliente"].Value);
-            }
-            set
-            {
-                HttpContext.Response.Cookies.Add(new HttpCookie("Cliente")
-                {
-                    Value = value.ToString()
-                });
-            }
-
-        }
     }
 }

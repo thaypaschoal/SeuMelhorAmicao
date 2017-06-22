@@ -12,9 +12,11 @@ namespace prjSeuMelhorAmicao.Controllers
     public class OngController : BaseController
     {
         private readonly OngDAO _ongDAO;
+        private readonly AnimalDAO _animalDAO;
         public OngController()
         {
             _ongDAO = new OngDAO();
+            _animalDAO = new AnimalDAO();
         }
 
         [AllowAnonymous]
@@ -25,14 +27,20 @@ namespace prjSeuMelhorAmicao.Controllers
             return View(Ongs);
         }
 
+
+        public ActionResult MeusAnimais()
+        {
+            IEnumerable<Animal> animaisOng = _animalDAO.ListarAnimalOng(UsuarioInfo.Id);
+
+            return View(animaisOng);
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Editar(Ong model)
         {
             if (ModelState.IsValid)
             {
-
-
                 return View();
             }
             else

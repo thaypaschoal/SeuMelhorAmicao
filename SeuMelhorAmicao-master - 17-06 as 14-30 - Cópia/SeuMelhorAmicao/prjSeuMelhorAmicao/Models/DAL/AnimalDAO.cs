@@ -33,7 +33,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
                 new SqlParameter("@genero", obj.Genero),
                 new SqlParameter("@foto", obj.Foto),
                 new SqlParameter("@descricao", obj.Descricao),
-                new SqlParameter("@dataEntrada", obj.DataEntrada)
+                new SqlParameter("@OngID", obj.ONGId),
             };
             obj.Id = (int)conex.ExecutaScalarSP(sp, parametros);
         }
@@ -77,7 +77,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
 
             var parametros = new List<SqlParameter>
             {
-                new SqlParameter("@idAnimal", id)
+                new SqlParameter("@Id", id)
             };
             var dt = conex.ExecutaSpDataTable(sp, parametros);
 

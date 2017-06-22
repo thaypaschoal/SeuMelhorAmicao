@@ -56,7 +56,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
                 new SqlParameter("@biografia", obj.Biografia),
                 new SqlParameter("@foto", obj.Foto)
             };
-            obj.Id = (int)conex.ExecutaScalarSP(sp, parametros);
+            conex.ExecutaScalarSP(sp, parametros);
         }
 
         public List<Ong> Listar(string pesquisa)

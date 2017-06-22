@@ -237,6 +237,8 @@
     <Content Include="Views\Account\Registrar.cshtml" />
     <Content Include="Views\Account\RegistrarOng.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
+    <Content Include="Views\Ong\MeusAnimais.cshtml" />
+    <Content Include="Views\Animal\Detalhes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

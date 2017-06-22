@@ -1,12 +1,15 @@
 ﻿@model IEnumerable<prjSeuMelhorAmicao.Models.Entidade.Animal>
 
 @{
-    ViewBag.Title = "Index";
-
+    ViewBag.Title = "MeusAnimais";
 }
-<h2>Index</h2>
 
-<table class="table">
+<h2>Meus Animais</h2>
+
+<p>
+    <a href="@Url.Action("Cadastrar", "Animal")" class="btn btn-info"><i class="glyphicon glyphicon-plus"></i>Novo Animal</a>
+</p>
+<table class="table table-hover">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Nome)
@@ -44,7 +47,9 @@
             @Html.DisplayFor(modelItem => item.Descricao)
         </td>
         <td>
-            <a>Favoritar</a>
+            @Html.ActionLink("Edit", "Editar", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Detalhes","Animal", new { id=item.Id }, null) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
         </td>
     </tr>
 }

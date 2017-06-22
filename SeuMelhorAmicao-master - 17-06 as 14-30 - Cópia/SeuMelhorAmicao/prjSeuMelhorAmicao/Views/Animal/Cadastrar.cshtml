@@ -8,21 +8,18 @@
 <h2>Cadastro de Animais</h2>
 
 
-@using (Html.BeginForm("Salvar", "Animal", null, FormMethod.Post, new
+@using (Html.BeginForm("Cadastrar", "Animal", null, FormMethod.Post, new
 {
-    enctype = "multipart/form-date"
+    enctype = "multipart/form-data"
 }))
 
-
 {
-
 
     <span class="label label-success">@TempData["SuccessMsg"]</span>
     <span class="label label-danger">@TempData["ErrorMsg"]</span>
 
 
     @Html.AntiForgeryToken()
-    @Html.HiddenFor(model => model.ONGId)
 
     <div class="form-horizontal">
         <h4>Animal</h4>

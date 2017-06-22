@@ -29,7 +29,7 @@ namespace prjSeuMelhorAmicao.Controllers
 
         public ActionResult Cadastrar()
         {
-            return View(new Animal() { ONGId = Ong });
+            return View(new Animal());
         }
 
         [HttpPost]
@@ -44,6 +44,9 @@ namespace prjSeuMelhorAmicao.Controllers
                         model.Foto = reader.ReadBytes(upload.ContentLength);
                     }
 
+                //Pega o id da ong
+                model.ONGId = UsuarioInfo.Id;
+
                 _animalDAO.Salvar(model);
 
                 return RedirectToAction("Index", "Ong");
@@ -53,6 +56,16 @@ namespace prjSeuMelhorAmicao.Controllers
                 ModelState.AddModelError("", "");
                 return View(model);
             }
+        }
+
+        public ActionResult Detalhes(int id = 0)
+        {
+            if (id == 0)
+                return RedirectToAction("Index", "Ong");
+
+            Animal animal = _animalDAO.Buscar(id);
+
+            return View(animal);
         }
 
         public ActionResult Editar(int id = 0)
@@ -73,7 +86,7 @@ namespace prjSeuMelhorAmicao.Controllers
             if (ModelState.IsValid)
             {
                 _animalDAO.Salvar(model);
-                return RedirectToAction("Index", new { @idOng = Ong });
+                return RedirectToAction("Index");
             }
             else
             {

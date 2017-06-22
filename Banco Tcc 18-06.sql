@@ -64,7 +64,6 @@ CREATE TABLE Animal
 	,	ONGId INT REFERENCES Ong(Id) 
 )
 GO
-
 CREATE TABLE Favorito
 (
 	  IdUsuario INT REFERENCES Cliente(Id)
@@ -88,13 +87,47 @@ BEGIN
 
 	IF(SELECT COUNT(*)  FROM Usuario WHERE Email = @email AND Senha = @senha) = 1
 		BEGIN
-		SELECT U.Nome, U.Email , P.Tipo
+		SELECT U.Id, U.Nome, U.Email , P.Tipo
 			FROM Usuario U
 			INNER JOIN Perfil P
 			ON P.Id = U.Perfil
 		WHERE U.Email = @email AND U.Senha = @senha
 		END
 		
+END
+GO
+CREATE PROCEDURE spBuscarInformacoes
+(	
+	@usuarioID	INT
+)
+AS
+BEGIN 
+		DECLARE @TipoConta INT
+		
+	SET @TipoConta = (SELECT P.Id FROM Usuario
+					 INNER JOIN Perfil P
+					 ON P.Id = Usuario.Perfil WHERE Usuario.Id =@usuarioID);
+
+	IF(@TipoConta = 1)
+		BEGIN
+			SELECT O.Id, U.Nome, U.Email, P.Tipo
+			FROM ONG O
+			INNER JOIN Usuario U
+			ON O.Conta = U.Id
+			INNER JOIN Perfil P
+			ON P.Id = U.Perfil
+			WHERE O.Conta = @usuarioID;
+		END
+	ELSE 
+		BEGIN
+			SELECT C.Id, U.Nome, U.Email, P.Tipo
+				 FROM Cliente C
+			INNER JOIN Usuario U
+			ON C.Conta = U.Id
+			INNER JOIN Perfil P
+			ON P.Id = U.Perfil
+			WHERE C.Conta = @usuarioID;
+		END
 END
 GO
 ----------
@@ -110,20 +143,35 @@ CREATE PROCEDURE spInsertOng
 	,	@foto		VARBINARY(MAX)
 )
 AS
-BEGIN 
+BEGIN
+	SET NOCOUNT ON;
 
-	DECLARE @idConta INT
 
-
-	INSERT INTO Usuario(Nome, Email, Senha, Perfil)
-	VALUES(@nome,@email,@senha, 1);
-
-	SELECT @idConta =  @@IDENTITY;
+	---VARIAVEIS
+	DECLARE		@ErrorMessage		VARCHAR(2000)
+		,		@ErrorState			TINYINT
+		,		@ErrorSeverity		TINYINT
 	
-	INSERT INTO Ong (Endereco, Telefone, Biografia, Foto, Conta)
-	OUTPUT inserted.Id
-	VALUES (@endereco, @telefone, @biografia,@foto, @idConta)
+		BEGIN TRY 
+			DECLARE @idConta INT
 
+	
+			INSERT INTO Usuario(Nome, Email, Senha, Perfil)
+			VALUES(@nome,@email,@senha, 1);
+
+			SELECT @idConta =  @@IDENTITY;
+	
+			INSERT INTO Ong (Endereco, Telefone, Biografia, Foto, Conta)
+			OUTPUT inserted.Id
+			VALUES (@endereco, @telefone, @biografia,@foto, @idConta)
+
+		END TRY
+		BEGIN CATCH 
+			SET @ErrorMessage	= ERROR_MESSAGE()
+			SET @ErrorState		= ERROR_STATE()
+			SET @ErrorSeverity	= ERROR_SEVERITY()
+			RAISERROR(@ErrorMessage, @ErrorState, @ErrorSeverity)
+		END CATCH		 
 END
 GO
 
@@ -189,8 +237,9 @@ CREATE PROCEDURE spBuscarOng
 AS
 BEGIN
 
-	SELECT 
-			U.Nome
+	SELECT
+			O.Id 
+		,	U.Nome
 		,	U.Email
 		,	O.Endereco
 		,	O.Telefone
@@ -225,16 +274,16 @@ CREATE PROCEDURE spInsertAnimal
 (
 		@nome VARCHAR (20)
 	,	@genero CHAR (1)
-	,	@dataEntrada DATE
 	,	@especie VARCHAR (15)
 	,	@descricao VARCHAR (200)
 	,	@foto VARBINARY(MAX)
+	,	@OngID	INT
 )
 AS
 BEGIN
-	INSERT INTO Animal (Nome, Genero, DataEntrada, Especie, Descricao, Foto)
+	INSERT INTO Animal (Nome, Genero, Especie, Descricao, Foto,ONGId)
 	OUTPUT inserted.Id
-	VALUES (@nome, @genero, @dataEntrada, @especie, @descricao, @foto)
+	VALUES (@nome, @genero, @especie, @descricao, @foto, @OngID)
 END
 GO
 --PROCEDURE UPDATE ANIMAL
