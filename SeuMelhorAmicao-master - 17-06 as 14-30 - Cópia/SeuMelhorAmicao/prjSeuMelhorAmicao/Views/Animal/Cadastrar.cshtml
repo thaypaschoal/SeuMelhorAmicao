@@ -8,8 +8,19 @@
 <h2>Cadastro de Animais</h2>
 
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm("Salvar", "Animal", null, FormMethod.Post, new
 {
+    enctype = "multipart/form-date"
+}))
+
+
+{
+
+
+    <span class="label label-success">@TempData["SuccessMsg"]</span>
+    <span class="label label-danger">@TempData["ErrorMsg"]</span>
+
+
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
@@ -53,12 +64,12 @@
             </div>
         </div>
 
-        @*<div class="form-group">
+        <div class="form-group">
             @Html.LabelFor(model => model.Foto, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                <a href="@url."
+            <div class="col-md-4">
+                <input type="file" id="Foto" name="upload"/>
             </div>
-        </div>*@
+        </div>
 
 
         <div class="form-group">
@@ -68,7 +79,13 @@
             </div>
         </div>
     </div>
-}
+
+    @*@Html.ActionLink("Cadastrar", "Salvar", "Animal", new { @id = ModelAnimal.Id }, new { @id = "button", @class = "btn btn-danger" })
+    @{ Html.EndForm();}*@
+
+
+        }
+
 
 <div>
     @Html.ActionLink("Voltar", "Index")

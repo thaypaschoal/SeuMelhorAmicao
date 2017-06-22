@@ -2,6 +2,11 @@
 
 @using (Html.BeginForm())
 {
+
+
+    <span class="label label-success">@TempData["SuccessMsg"]</span>
+    <span class="label label-danger">@TempData["ErrorMsg"]</span>
+
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
