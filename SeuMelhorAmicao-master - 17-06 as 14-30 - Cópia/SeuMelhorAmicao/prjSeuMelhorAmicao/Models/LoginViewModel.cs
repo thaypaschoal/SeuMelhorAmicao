@@ -13,8 +13,5 @@ namespace prjSeuMelhorAmicao.Models
 
         [Required(ErrorMessage = "Campo Obrigatório!")]
         public string Senha { get; set; }
-
-
-
     }
 }

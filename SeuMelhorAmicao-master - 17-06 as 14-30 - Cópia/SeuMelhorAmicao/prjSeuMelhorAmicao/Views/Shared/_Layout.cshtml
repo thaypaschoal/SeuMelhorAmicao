@@ -20,18 +20,18 @@
                 @Html.ActionLink("Meu Melhor Amicao", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Início", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Sobre", "About", "Home")</li>
-                </ul>
+                @Html.Partial("_Menu")
                 @Html.Partial("_LoginSistema")
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
+    <div class="body-content">
+        <div class="container container-fluid">
+            <br />
+            @RenderBody()
+        </div>
         <hr />
-        <footer>
+        <footer class="text-center">
             <p>&copy; @DateTime.Now.Year - Seu Melhor Amicão</p>
         </footer>
     </div>

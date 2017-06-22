@@ -6,9 +6,6 @@
 }
 <h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Adicionar Animal", "Cadastrar")
-</p>
 <table class="table">
     <tr>
         <th>
@@ -53,10 +50,7 @@
             @Html.DisplayFor(modelItem => item.ONGId)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id }) |
-          
+            <a>Favoritar</a>
         </td>
     </tr>
 }

@@ -9,33 +9,44 @@ using System.Web.Mvc;
 
 namespace prjSeuMelhorAmicao.Controllers
 {
-
-    public class AnimalController : Controller
+    [Authorize(Roles = "Ong")]
+    public class AnimalController : BaseController
     {
-        
-        public ActionResult Index(string pesquisa)
+        private readonly AnimalDAO _animalDAO;
+        public AnimalController()
         {
-            return View(new List<Animal>());
+            _animalDAO = new AnimalDAO();
         }
+
+        [AllowAnonymous]
+        public ActionResult Index(int idOng, string pesquisa = "")
+        {
+            IEnumerable<Animal> animais = _animalDAO.ListarAnimalOng(idOng);
+
+            return View(animais);
+        }
+
 
         public ActionResult Cadastrar()
         {
-
-            return View(new Animal());
+            return View(new Animal() { ONGId = Ong });
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Cadastrar(Animal model, HttpPostedFileBase upload)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                //using (var reader = new BinaryReader(upload.InputSream))
-                //{ 
-                //    Animal.Foto = reader.ReadBytes(upload.ContentLength);
-                //}
+                if (upload != null && upload.ContentLength > 0)
+                    using (var reader = new BinaryReader(upload.InputStream))
+                    {
+                        model.Foto = reader.ReadBytes(upload.ContentLength);
+                    }
 
-                return View();
+                _animalDAO.Salvar(model);
+
+                return RedirectToAction("Index", "Ong");
             }
             else
             {
@@ -44,9 +55,15 @@ namespace prjSeuMelhorAmicao.Controllers
             }
         }
 
-        public ActionResult Editar()
+        public ActionResult Editar(int id = 0)
         {
-            return View();
+            if (id == 0)
+                return RedirectToAction("Index", "Ong");
+
+            Animal animal = _animalDAO.Buscar(id);
+
+
+            return View(animal);
         }
 
         [HttpPost]
@@ -55,7 +72,8 @@ namespace prjSeuMelhorAmicao.Controllers
         {
             if (ModelState.IsValid)
             {
-                return View();
+                _animalDAO.Salvar(model);
+                return RedirectToAction("Index", new { @idOng = Ong });
             }
             else
             {
@@ -67,31 +85,17 @@ namespace prjSeuMelhorAmicao.Controllers
         public ActionResult VisualizarAnimal(int id)
         {
 
-            return File("", "image/jpg");
+            Animal animal = _animalDAO.Buscar(id);
+
+            return File(animal.Foto, "image/jpg");
         }
-        public ActionResult Salvar(Animal obj)
-        {
-            try
-            {
 
-                new AnimalDAO().Salvar(obj);
-                TempData["SuccessMsg"] = "Animal salvo com sucesso!";
-                if (!ModelState.IsValid)
-                    return View(obj.Id == 0 ? "Cadastro" : "Edit", obj);
-
-            }
-            catch (Exception ex)
-            {
-                TempData["ErrorMsg"] = string.Format("Falha ao salvar animal. {0}", ex.Message);
-
-            }
-            return View("Edit", obj);
-        }
+     
     }
 
 
 
-    
+
 
 
 }

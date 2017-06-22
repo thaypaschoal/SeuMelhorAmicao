@@ -18,13 +18,13 @@ GO
 CREATE TABLE Perfil
 (
 	  Id INT PRIMARY KEY IDENTITY
-	, Tipo VARCHAR(20)
+	, Tipo VARCHAR(20) UNIQUE
 );
 GO
 INSERT 
 	INTO Perfil(Tipo)
 	VALUES('Ong'),('Cliente')
-
+GO
 CREATE TABLE Usuario
 (
 	  Id INT PRIMARY KEY IDENTITY
@@ -92,9 +92,11 @@ BEGIN
 			FROM Usuario U
 			INNER JOIN Perfil P
 			ON P.Id = U.Perfil
+		WHERE U.Email = @email AND U.Senha = @senha
 		END
 		
 END
+GO
 ----------
 --PROCEDURE INSERT ONG
 CREATE PROCEDURE spInsertOng
@@ -294,8 +296,20 @@ BEGIN
 		OR Especie LIKE '%' + @pesquisa + '%'
 	
 END
-
 GO
+CREATE PROCEDURE spListaAnimalOng
+(
+	@OngId	INT
+)
+AS
+BEGIN 
+		SELECT Id, Nome, Genero, DataEntrada, Especie, Descricao, Foto
+		FROM Animal
+		WHERE ONGId = @OngId;
+	
+END
+GO
+
 --PROCEDURE FAVORITAR ANIMAL
 CREATE PROCEDURE spFavoritar
 (
@@ -323,97 +337,10 @@ BEGIN
 END
 GO
 
---------------------
----PERFIL-----------
---------------------
---PROCEDURE INSERT PERFIL DA CONTA
-CREATE PROCEDURE spInsertPerfilConta
-(
-		@idConta	INT
-	,	@idPerfil	INT
-)
-AS
-BEGIN 
-	INSERT 
-		INTO  PerfilConta(IdConta, IdPerfil)
-		VALUES(@idConta, @idPerfil)
-END
-GO
---PROCEDURE DELETE PERFIL DA CONTA
-CREATE PROCEDURE spDeletePerfilConta
-(
-		@idConta	INT
-	,	@idPerfil	INT
-)
-AS
-BEGIN 
-	DELETE 
-		FROM PerfilConta
-	WHERE IdConta = @idConta 
-	AND IdPerfil = @idPerfil
-END
-GO
---PROCEDURE INSERT PERFIL
-CREATE PROCEDURE spInsertPerfil
-(
-		@Tipo	VARCHAR(20)
-)
-AS
-BEGIN 
-	INSERT 
-		INTO  Perfil(Tipo) VALUES(@Tipo)
-END
-GO
---PROCEDURE UPDATE PERFIL
-CREATE PROCEDURE spUpdatePerfil
-(
-		@id		INT
-	,	@Tipo	VARCHAR(20)
-)
-AS
-BEGIN 
-	UPDATE Perfil
-		SET Tipo = @Tipo
-	WHERE Id = @id;
-END
-GO
---PROCEDURE DELETE PERFIL
-CREATE PROCEDURE spDeletePerfil
-(
-		@id	INT
-)
-AS
-BEGIN 
-	DELETE 
-		FROM  Perfil 
-	WHERE Id = @id;
-END
-GO
---PROCEDURE LISTAR PERFILS
-CREATE PROCEDURE spListPerfil
-	@pesquisa VARCHAR(10) = ''
-AS
-BEGIN 
-	SELECT 
-		* FROM Perfil
-	WHERE Tipo LIKE '%'+ @pesquisa + '%';
-END
-GO
---PROCEDURE GET PERFIl
-CREATE PROCEDURE spGetPerfil
-(
-	@id INT
-)
-AS
-BEGIN 
-	SELECT * FROM Perfil
-		WHERE Id = @id;
-	
-END
-GO
 ---------------------
 ---CLIENTE-----------
 ---------------------
+
 CREATE PROCEDURE spInsertCliente
 (
 		@nome				VARCHAR (50) 
@@ -523,6 +450,3 @@ BEGIN
 	WHERE U.Nome LIKE '%' + @pesquisa + '%'
 END
 GO
-
-
-select * from Animal

@@ -10,27 +10,35 @@ using System.Web.Security;
 using System.Web.UI.WebControls;
 using prjSeuMelhorAmicao.Models.DAL;
 using prjSeuMelhorAmicao.Models;
+using System.IO;
 
 namespace prjSeuMelhorAmicao.Controllers
 {
-    public class AccountController : Controller
+    [Authorize(Roles = "Cliente,Ong")]
+    public class AccountController : BaseController
     {
         private readonly ClienteDAO _clienteDAO;
         private readonly OngDAO _ongDAO;
-        
+
         public AccountController()
         {
             _clienteDAO = new ClienteDAO();
             _ongDAO = new OngDAO();
         }
 
+        [AllowAnonymous]
         public ActionResult Login()
         {
+            if (User.Identity.IsAuthenticated)
+                return RedirectToAction("Index", "Home");
+
             return View(new LoginViewModel());
         }
-        
+
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public ActionResult Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
@@ -44,11 +52,16 @@ namespace prjSeuMelhorAmicao.Controllers
                     AccountModel conta = new AccountModel();
 
                     var authCookie = conta.Credenciar(user);
-                    //Adiciona os cookie e prontinho
+
+
                     HttpContext.Response.Cookies.Add(authCookie);
 
-                    FormsAuthentication.SetAuthCookie(user.Email, false);
+                    if (user.Perfil.Tipo == "Ong")
+                        Ong = user.Id;
+                    else
+                        Cliente = user.Id;
 
+                    
                     return RedirectToAction("Index", "Ong");
                 }
 
@@ -62,13 +75,16 @@ namespace prjSeuMelhorAmicao.Controllers
             }
         }
 
-        
+        [AllowAnonymous]
         public ActionResult Registrar()
         {
+            if (User.Identity.IsAuthenticated)
+                return RedirectToAction("Index", "Home");
             return View(new Cliente());
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public ActionResult Registrar(Cliente model)
         {
             if (ModelState.IsValid)
@@ -83,12 +99,54 @@ namespace prjSeuMelhorAmicao.Controllers
             }
         }
 
+
+        [AllowAnonymous]
+        public ActionResult RegistrarOng()
+        {
+            if (User.Identity.IsAuthenticated)
+                return RedirectToAction("Index", "Home");
+
+            return View(new Ong());
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        public ActionResult RegistrarOng(Ong model, HttpPostedFileBase upload)
+        {
+            if (ModelState.IsValid)
+            {
+                if (upload != null && upload.ContentLength > 0)
+                    using (var reader = new BinaryReader(upload.InputStream))
+                    {
+                        model.Foto = reader.ReadBytes(upload.ContentLength);
+                    }
+
+
+                _ongDAO.Insert(model);
+
+                return RedirectToAction("Login");
+            }
+            else
+            {
+                return View(model);
+            }
+        }
+
+
+
+        [AllowAnonymous]
         public ActionResult Logout()
         {
             FormsAuthentication.SignOut();
             Session.Clear();
             Session.Abandon();
             return RedirectToAction("Index", "Home");
+        }
+
+
+        public ActionResult VisualizarPerfil()
+        {
+            return View();
         }
     }
 }

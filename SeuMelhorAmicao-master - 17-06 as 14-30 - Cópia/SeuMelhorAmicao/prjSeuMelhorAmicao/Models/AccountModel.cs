@@ -9,13 +9,11 @@ namespace prjSeuMelhorAmicao.Models
 {
     public class AccountModel
     {
-        
+
         public HttpCookie Credenciar(Usuario usuario)
         {
-            //Adiciona a permissao que o usuario tem
-            string roles = usuario.Perfil.Tipo.ToString()  + ";";
+            string roles = string.Join(";", usuario.Perfil.Tipo);
 
-            //Cria o ticket de autenticacao
             var authTicket = new FormsAuthenticationTicket
                 (1,
                 usuario.Nome,
@@ -25,13 +23,12 @@ namespace prjSeuMelhorAmicao.Models
                 roles,
                 FormsAuthentication.FormsCookiePath);
 
-            //Encriptografa
+
             var authCrypt = FormsAuthentication.Encrypt(authTicket);
 
             //Nome e permissoes
-            //Cria o cookie
             var authCookie = new HttpCookie(FormsAuthentication.FormsCookieName, authCrypt);
-            //e retorna
+
             return authCookie;
         }
     }

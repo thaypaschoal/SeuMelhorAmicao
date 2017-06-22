@@ -1,4 +1,5 @@
-﻿using prjSeuMelhorAmicao.Models.Entidade;
+﻿using prjSeuMelhorAmicao.Models.DAL;
+using prjSeuMelhorAmicao.Models.Entidade;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +8,14 @@ using System.Web.Mvc;
 
 namespace prjSeuMelhorAmicao.Controllers
 {
-    public class ClienteController : Controller
+    [Authorize(Roles = "Cliente")]
+    public class ClienteController : BaseController
     {
-
-        public ActionResult Index()
+        public ClienteController()
         {
-            return View();
+
         }
+
 
         public ActionResult Editar()
         {
@@ -35,7 +37,7 @@ namespace prjSeuMelhorAmicao.Controllers
             }
         }
 
-        
+
         public ActionResult VisualizarOngs()
         {
             return View();
@@ -53,8 +55,8 @@ namespace prjSeuMelhorAmicao.Controllers
             if (id == 0)
                 return View();
 
-            //Chama o metodo para favoritar
             
+
             return View();
         }
 
@@ -63,7 +65,7 @@ namespace prjSeuMelhorAmicao.Controllers
             if (id == 0)
                 return View();
 
-            //Chama o metodo para favoritar
+            
 
             return View();
         }

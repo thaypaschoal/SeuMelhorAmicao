@@ -22,7 +22,8 @@
 
 
     @Html.AntiForgeryToken()
-    
+    @Html.HiddenFor(model => model.ONGId)
+
     <div class="form-horizontal">
         <h4>Animal</h4>
         <hr />
@@ -67,7 +68,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Foto, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-4">
-                <input type="file" id="Foto" name="upload"/>
+                <input type="file" id="Foto" name="upload" />
             </div>
         </div>
 
@@ -80,16 +81,9 @@
         </div>
     </div>
 
-    @*@Html.ActionLink("Cadastrar", "Salvar", "Animal", new { @id = ModelAnimal.Id }, new { @id = "button", @class = "btn btn-danger" })
-    @{ Html.EndForm();}*@
 
+}
 
-        }
-
-
-<div>
-    @Html.ActionLink("Voltar", "Index")
-</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")

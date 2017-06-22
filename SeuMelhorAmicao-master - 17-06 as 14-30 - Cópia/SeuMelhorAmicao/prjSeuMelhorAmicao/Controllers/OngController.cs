@@ -1,4 +1,5 @@
-﻿using prjSeuMelhorAmicao.Models.Entidade;
+﻿using prjSeuMelhorAmicao.Models.DAL;
+using prjSeuMelhorAmicao.Models.Entidade;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,35 +8,21 @@ using System.Web.Mvc;
 
 namespace prjSeuMelhorAmicao.Controllers
 {
- 
-    public class OngController : Controller
+    [Authorize(Roles ="Ong")]
+    public class OngController : BaseController
     {
+        private readonly OngDAO _ongDAO;
+        public OngController()
+        {
+            _ongDAO = new OngDAO();
+        }
+
+        [AllowAnonymous]
         public ActionResult Index(string pesquisa)
         {
-            return View(new List<Ong>());
-        }
+            IEnumerable<Ong> Ongs = _ongDAO.Listar(pesquisa);
 
-        public ActionResult Create()
-        {
-            return View(new Ong());
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(Ong model)
-        {
-
-
-            if (ModelState.IsValid)
-            {
-                return View();
-            }
-            else
-            {
-                ModelState.AddModelError("", "");
-                return View(model);
-            }
-            
+            return View(Ongs);
         }
 
         [HttpPost]
@@ -44,6 +31,8 @@ namespace prjSeuMelhorAmicao.Controllers
         {
             if (ModelState.IsValid)
             {
+
+
                 return View();
             }
             else
@@ -51,6 +40,15 @@ namespace prjSeuMelhorAmicao.Controllers
                 ModelState.AddModelError("", "");
                 return View(model);
             }
+        }
+
+
+        [HttpGet]
+        public ActionResult MostraImagem(int id = 0)
+        {
+            Ong ong = _ongDAO.Buscar(id);
+
+            return File(ong.Foto, "image/jpg");
         }
     }
 }

@@ -98,6 +98,19 @@ namespace prjSeuMelhorAmicao.Models.DAL
             return ConvertTable(dt);
         }
 
+        public List<Animal> ListarAnimalOng(int ongId)
+        {
+            var conex = new ConectionFactory();
+            string sp = "spListaAnimalOng";
+
+            var parametros = new List<SqlParameter>
+            {
+                new SqlParameter("@OngId", ongId)
+            };
+            var dt = conex.ExecutaSpDataTable(sp, parametros);
+
+            return ConvertTable(dt);
+        }
 
         private List<Animal> ConvertTable(DataTable table)
         {
@@ -110,7 +123,6 @@ namespace prjSeuMelhorAmicao.Models.DAL
                     Id = Convert.ToInt32(item["Id"]),
                     Nome = item["Nome"].ToString(),
                     Genero = item["Genero"].ToString(),
-                    //Genero = item["Genero"].ToString()[0],
                     DataEntrada = DateTime.Parse(item["DataEntrada"].ToString()),
                     Especie = item["Especie"].ToString(),
                     Descricao = item["Descricao"].ToString(),

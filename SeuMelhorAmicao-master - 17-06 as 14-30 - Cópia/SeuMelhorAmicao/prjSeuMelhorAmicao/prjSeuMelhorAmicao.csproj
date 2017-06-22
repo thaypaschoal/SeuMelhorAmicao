@@ -143,6 +143,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AnimalController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OngController.cs" />
@@ -234,6 +235,8 @@
     <Content Include="Views\Animal\Visualizar.cshtml" />
     <Content Include="Views\Cliente\DetalhesOng.cshtml" />
     <Content Include="Views\Account\Registrar.cshtml" />
+    <Content Include="Views\Account\RegistrarOng.cshtml" />
+    <Content Include="Views\Shared\_Menu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

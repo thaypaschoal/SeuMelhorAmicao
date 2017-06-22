@@ -1,0 +1,14 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Ong", "Index", "Ong")</li>
+        <li>@Html.ActionLink("Animais", "Index", "Animal")</li>
+    </ul>
+}
+else
+{
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Início", "Index", "Home")</li>
+        <li>@Html.ActionLink("Sobre", "About", "Home")</li>
+    </ul>
+}

@@ -24,8 +24,8 @@ namespace prjSeuMelhorAmicao.Models.DAL
             var dt = conex.ExecutaSpDataTable(sp, parametros);
             var ongs = new List<Ong>();
 
-            return ConvertTable(dt).FirstOrDefault();
 
+            return ConvertTable(dt).FirstOrDefault();
         }
 
         public void Delete(Ong obj)
@@ -117,6 +117,8 @@ namespace prjSeuMelhorAmicao.Models.DAL
                 {
 
                     Id = Convert.ToInt32(row["Id"]),
+                    Nome = row["Nome"].ToString(),
+                    Email = row["Email"].ToString(),
                     Biografia = row["Biografia"].ToString(),
                     Telefone = row["Telefone"].ToString(),
                     Endereco = row["Endereco"].ToString(),

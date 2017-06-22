@@ -30,6 +30,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
 
             return new Usuario()
             {
+                Id = int.Parse(table.Rows[0]["Id"].ToString()),
                 Nome = table.Rows[0]["Nome"].ToString(),
                 Email = table.Rows[0]["Email"].ToString(),
                 Perfil = new Perfil() { Tipo = table.Rows[0]["Tipo"].ToString() }

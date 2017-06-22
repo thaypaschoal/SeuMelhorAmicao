@@ -4,48 +4,19 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Todas as Ongs: </h2>
+<div class="row">
+    @foreach (var ong in Model)
+    {
+        <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="@Url.Action("MostraImagem","Ong",new {@id = ong.Id})" alt="Imagem" height="300" width="300">
+                <div class="caption">
+                    <h4>@Html.DisplayFor(model => ong.Nome)</h4>
+                    <p><a href="@Url.Action("Index","Animal", new {@idOng = ong.Id})" class="btn btn-info btn-xs" role="button"> Visualizar</a> </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
 
-<p>
-    @Html.ActionLink("Adicionar Ong", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Endereco)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Telefone)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Biografia)
-        </th>
-        @*<th>
-            @Html.DisplayNameFor(model => model.Conta)
-        </th>*@
-        <th></th>
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Endereco)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Telefone)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Biografia)
-        </td>
-        @*<td>
-            @Html.DisplayFor(modelItem => item.Conta)
-        </td>*@
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
-
-</table>
