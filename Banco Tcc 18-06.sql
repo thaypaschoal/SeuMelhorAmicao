@@ -155,9 +155,9 @@ BEGIN
 		BEGIN TRY 
 			DECLARE @idConta INT
 
-	
 			INSERT INTO Usuario(Nome, Email, Senha, Perfil)
 			VALUES(@nome,@email,@senha, 1);
+
 
 			SELECT @idConta =  @@IDENTITY;
 	
@@ -292,7 +292,6 @@ CREATE PROCEDURE spUpdateAnimal
 		@id INT
 	,	@nome VARCHAR (20)
 	,	@genero CHAR (1)
-	,	@dataEntrada DATE
 	,	@especie VARCHAR (15)
 	,	@descricao VARCHAR (200)
 	,	@foto VARBINARY(MAX)
@@ -301,8 +300,7 @@ AS
 BEGIN
 	UPDATE Animal SET
 		Nome		= @nome
-	,	Genero		= @genero
-	,	DataEntrada	= @dataEntrada
+	,	Genero		= @genero	
 	,	Especie		= @especie
 	,	Descricao	= @descricao
 	,	Foto		= @foto
@@ -497,5 +495,19 @@ BEGIN
 	 INNER JOIN Usuario U
 	 ON U.Id = C.Conta
 	WHERE U.Nome LIKE '%' + @pesquisa + '%'
+END
+GO
+CREATE PROCEDURE spListaFavoritos
+(
+	@idCliente	INT
+)
+AS
+BEGIN 
+	SELECT	
+	A.Id, A.Nome, A.Genero,A.DataEntrada, A.Especie,A.Descricao,A.Foto
+	 FROM Favorito F
+	INNER JOIN Animal A
+	ON F.IdAnimal = A.Id
+	WHERE F.IdUsuario = @idCliente
 END
 GO

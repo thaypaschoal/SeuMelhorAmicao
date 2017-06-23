@@ -242,8 +242,6 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Animal\Editar.cshtml" />
     <Content Include="Views\Ong\Edit.cshtml" />
-    <Content Include="Views\Ong\Cliente\Create.cshtml" />
-    <Content Include="Views\Ong\Cliente\Edit.cshtml" />
     <Content Include="Views\Animal\Visualizar.cshtml" />
     <Content Include="Views\Cliente\DetalhesOng.cshtml" />
     <Content Include="Views\Account\Registrar.cshtml" />
@@ -251,6 +249,7 @@
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\Ong\MeusAnimais.cshtml" />
     <Content Include="Views\Animal\Detalhes.cshtml" />
+    <Content Include="Views\Cliente\MeusFavoritos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

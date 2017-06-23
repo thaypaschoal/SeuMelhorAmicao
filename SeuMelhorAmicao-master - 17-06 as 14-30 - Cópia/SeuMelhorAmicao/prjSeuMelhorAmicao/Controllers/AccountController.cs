@@ -19,7 +19,7 @@ namespace prjSeuMelhorAmicao.Controllers
     {
         private readonly ClienteDAO _clienteDAO;
         private readonly OngDAO _ongDAO;
-        
+
         public AccountController()
         {
             _clienteDAO = new ClienteDAO();
@@ -52,16 +52,21 @@ namespace prjSeuMelhorAmicao.Controllers
                     AccountModel conta = new AccountModel();
 
                     var authCookie = conta.Credenciar(user);
-                    
+
                     HttpContext.Response.Cookies.Add(authCookie);
 
                     UsuarioInfo = new UsuarioDAO().BuscarInformacoes(user.Id);
 
-                    return RedirectToAction("Index", "Ong");
+                    if (UsuarioInfo.Perfil.Tipo == "Ong")
+                        return RedirectToAction("MeusAnimais", "Ong");
+                    else
+                        return RedirectToAction("Index", "Ong");
                 }
-
-                ModelState.AddModelError("", "Login ou/ Senha inválidos");
-                return RedirectToAction("Login", model);
+                else
+                {
+                    ModelState.AddModelError("", "Login ou/ Senha inválidos");
+                    return RedirectToAction("Login", model);
+                }
             }
             else
             {
@@ -86,7 +91,18 @@ namespace prjSeuMelhorAmicao.Controllers
             {
                 _clienteDAO.Insert(model);
 
-                return RedirectToAction("Login");
+                AccountModel conta = new AccountModel();
+
+                Usuario user = new UsuarioDAO().BuscarInformacoes(model.Id);
+
+                var authCookie = conta.Credenciar(user);
+
+                HttpContext.Response.Cookies.Add(authCookie);
+
+                UsuarioInfo = user;
+
+
+                return RedirectToAction("Index", "Ong");
             }
             else
             {
@@ -119,7 +135,17 @@ namespace prjSeuMelhorAmicao.Controllers
 
                 _ongDAO.Insert(model);
 
-                return RedirectToAction("Login");
+                AccountModel conta = new AccountModel();
+
+                Usuario user = new UsuarioDAO().BuscarInformacoes(model.Id);
+
+                var authCookie = conta.Credenciar(user);
+
+                HttpContext.Response.Cookies.Add(authCookie);
+
+                UsuarioInfo = user;
+
+                return RedirectToAction("MeusAnimais", "Ong");
             }
             else
             {

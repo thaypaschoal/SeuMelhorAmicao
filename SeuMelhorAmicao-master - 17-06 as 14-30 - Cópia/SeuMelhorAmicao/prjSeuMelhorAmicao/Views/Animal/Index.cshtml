@@ -4,49 +4,19 @@
     ViewBag.Title = "Index";
 
 }
-<h2>Index</h2>
+<h2>ANIMAIS DA ONG : ViewBag.NomeOng</h2>
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Nome)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Genero)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DataEntrada)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Especie)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Descricao)
-        </th>
-        <th></th>
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Genero)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DataEntrada)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Especie)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Descricao)
-        </td>
-        <td>
-            <a>Favoritar</a>
-        </td>
-    </tr>
-}
-
-</table>
+<div class="row">
+    @foreach (var animal in Model)
+    {
+        <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="@Url.Action("VisualizarAnimal","Animal",new {@id = animal.Id})" alt="Imagem" height="300" width="300">
+                <div class="caption">
+                    <h4>@Html.DisplayFor(model => animal.Nome)@Html.DisplayFor(model => animal.DataEntrada)</h4>
+                    <p><a href="@Url.Action("Favorit8arAnimal","Cliente", new {@id = animal.Id})" class="btn btn-success btn-xs" role="button">Favoritar</a> </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

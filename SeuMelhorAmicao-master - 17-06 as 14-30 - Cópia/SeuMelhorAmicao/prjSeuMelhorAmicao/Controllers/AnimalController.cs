@@ -13,16 +13,19 @@ namespace prjSeuMelhorAmicao.Controllers
     public class AnimalController : BaseController
     {
         private readonly AnimalDAO _animalDAO;
+        private readonly OngDAO _ongDAO;
         public AnimalController()
         {
             _animalDAO = new AnimalDAO();
         }
+    
 
+            //Visualizar os animais da ong
         [AllowAnonymous]
         public ActionResult Index(int idOng = 0, string pesquisa = "")
         {
             IEnumerable<Animal> animais = _animalDAO.ListarAnimalOng(idOng);
-
+            ViewBag.NomeOng = _ongDAO.Buscar(idOng).Nome;
             return View(animais);
         }
 
@@ -49,7 +52,7 @@ namespace prjSeuMelhorAmicao.Controllers
 
                 _animalDAO.Salvar(model);
 
-                return RedirectToAction("Index", "Ong");
+                return RedirectToAction("MeusAnimais", "Ong");
             }
             else
             {
@@ -81,12 +84,18 @@ namespace prjSeuMelhorAmicao.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Editar(Animal model)
+        public ActionResult Editar(Animal model, HttpPostedFileBase upload)
         {
             if (ModelState.IsValid)
             {
+                if (upload != null && upload.ContentLength > 0)
+                    using (var reader = new BinaryReader(upload.InputStream))
+                    {
+                        model.Foto = reader.ReadBytes(upload.ContentLength);
+                    }
+
                 _animalDAO.Salvar(model);
-                return RedirectToAction("Index");
+                return RedirectToAction("MeusAnimais", "Ong");
             }
             else
             {
@@ -113,7 +122,7 @@ namespace prjSeuMelhorAmicao.Controllers
             if(animal != null)
             {
                 _animalDAO.Delete(animal);
-                return RedirectToAction("Index");
+                return RedirectToAction("MeusAnimais", "Ong");
             }
             else
             {
@@ -124,6 +133,8 @@ namespace prjSeuMelhorAmicao.Controllers
             
         }
      
+
+
     }
 
 

@@ -12,6 +12,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
 {
     public class ClienteDAO : IDAO<Cliente>
     {
+
         public Cliente Buscar(int id)
         {
             var conex = new ConectionFactory();
@@ -122,6 +123,9 @@ namespace prjSeuMelhorAmicao.Models.DAL
                 conex.ExecutaNonQuerySP(sp, parametros);
             }
         }
+
+
+
         
         private List<Cliente> ConvertTable(DataTable table)
         {

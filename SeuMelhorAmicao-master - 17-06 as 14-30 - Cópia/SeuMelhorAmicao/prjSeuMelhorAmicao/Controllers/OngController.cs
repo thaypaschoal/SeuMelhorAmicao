@@ -18,7 +18,7 @@ namespace prjSeuMelhorAmicao.Controllers
             _ongDAO = new OngDAO();
             _animalDAO = new AnimalDAO();
         }
-
+        //Busca todas as ongs
         [AllowAnonymous]
         public ActionResult Index(string pesquisa)
         {
@@ -27,7 +27,10 @@ namespace prjSeuMelhorAmicao.Controllers
             return View(Ongs);
         }
 
-
+        /// <summary>
+        /// Animais da ong
+        /// </summary>
+        /// <returns></returns>
         public ActionResult MeusAnimais()
         {
             IEnumerable<Animal> animaisOng = _animalDAO.ListarAnimalOng(UsuarioInfo.Id);

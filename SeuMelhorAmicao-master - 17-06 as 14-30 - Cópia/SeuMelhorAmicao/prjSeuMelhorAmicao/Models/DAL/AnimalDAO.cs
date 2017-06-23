@@ -59,12 +59,11 @@ namespace prjSeuMelhorAmicao.Models.DAL
             var parametros = new List<SqlParameter>
             {
                 new SqlParameter("@id", obj.Id),
-                new SqlParameter("@nomeAnimal", obj.Nome),
+                new SqlParameter("@nome", obj.Nome),
                 new SqlParameter("@especie", obj.Especie),
                 new SqlParameter("@genero", obj.Genero),
                 new SqlParameter("@foto", obj.Foto),
-                new SqlParameter("@descricaoAnimal", obj.Descricao),
-                new SqlParameter("@dataEntrada", obj.DataEntrada)
+                new SqlParameter("@descricao", obj.Descricao),
             };
             conex.ExecutaNonQuerySP(sp, parametros);
         }
@@ -111,6 +110,21 @@ namespace prjSeuMelhorAmicao.Models.DAL
 
             return ConvertTable(dt);
         }
+
+        public List<Animal> ListarFavoritoCliente(int ClienteId)
+        {
+            var conex = new ConectionFactory();
+            string sp = "spListaFavoritos";
+
+            var parametros = new List<SqlParameter>
+            {
+                new SqlParameter("@idCliente", ClienteId)
+            };
+            var dt = conex.ExecutaSpDataTable(sp, parametros);
+
+            return ConvertTable(dt);
+        }
+
 
         private List<Animal> ConvertTable(DataTable table)
         {

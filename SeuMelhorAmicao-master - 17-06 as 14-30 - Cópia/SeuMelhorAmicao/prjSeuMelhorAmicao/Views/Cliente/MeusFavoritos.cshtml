@@ -1,0 +1,22 @@
+﻿@model IEnumerable<prjSeuMelhorAmicao.Models.Entidade.Animal>
+
+@{
+    ViewBag.Title = "MeusFavoritos";
+}
+
+<h2>MeusFavoritos</h2>
+
+<div class="row">
+    @foreach (var animal in Model)
+    {
+        <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="@Url.Action("VisualizarAnimal","Animal", new {@id = animal.Id})" alt="Imagem" height="300" width="300">
+                <div class="caption">
+                    <h4>@Html.DisplayFor(model => animal.Nome) : @Html.DisplayFor(model => animal.Genero)</h4>
+                    <p><a href="@Url.Action("DesFavoritarAnimal","Cliente", new {@id = animal.Id})" class="btn btn-success btn-xs" role="button">Favoritar</a> </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

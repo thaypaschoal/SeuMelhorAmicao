@@ -14,7 +14,8 @@ namespace prjSeuMelhorAmicao.Controllers
         {
             get
             {
-                //HttpContext.Response.Cookies.Get();
+                //if (HttpContext.Request.Cookies.Get("UsuarioInfo") != null)
+                //    Session["UsuarioId"] = HttpContext.Request.Cookies.Get("UsuarioInfo");
 
                 return (Usuario)Session["UsuarioInfo"];
             }

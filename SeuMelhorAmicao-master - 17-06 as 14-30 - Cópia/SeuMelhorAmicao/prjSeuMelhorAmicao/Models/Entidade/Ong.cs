@@ -12,6 +12,7 @@ namespace prjSeuMelhorAmicao.Models.Entidade
         public Ong()
         {
             Animal = new List<Animal>();
+            OngId = 0;
         }
 
 

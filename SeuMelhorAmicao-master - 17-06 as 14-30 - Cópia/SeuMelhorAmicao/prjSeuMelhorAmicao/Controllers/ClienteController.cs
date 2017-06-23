@@ -11,15 +11,26 @@ namespace prjSeuMelhorAmicao.Controllers
     [Authorize(Roles = "Cliente")]
     public class ClienteController : BaseController
     {
+        private readonly ClienteDAO _clienteDAO;
+        private readonly AnimalDAO _animalDAO;
         public ClienteController()
         {
-
+            _clienteDAO = new ClienteDAO();
+            _animalDAO = new AnimalDAO();
         }
 
 
         public ActionResult Editar()
         {
             return View();
+        }
+
+        //Buscar favoritos do cliente
+        public ActionResult MeusFavoritos()
+        {
+            IEnumerable<Animal> animais = _animalDAO.ListarFavoritoCliente(UsuarioInfo.Id);
+
+            return View(animais);
         }
 
         [HttpPost]
@@ -38,37 +49,35 @@ namespace prjSeuMelhorAmicao.Controllers
             }
         }
 
-
-        public ActionResult VisualizarOngs()
-        {
-            return View();
-        }
-
-        //E aqui ele veria as informações mais detalhadas da ong, e os animais dela
-        public ActionResult DetalhesOng()
-        {
-            return View();
-        }
-
-        //Aqui pode ser tudo na mesma action ai vc faria o controle
         public ActionResult FavoritarAnimal(int id = 0)
         {
-            if (id == 0)
-                return View();
+
+            Cliente cliente = _clienteDAO.Buscar(UsuarioInfo.Id);
+
+            cliente.Animal = new List<Animal>()
+            {
+                new Animal() {Id = id }
+            };
 
             
+            _clienteDAO.FavoritarAnimal(cliente);
 
-            return View();
+            return RedirectToAction("MeusFavoritos");
         }
 
         public ActionResult DesFavoritarAnimal(int id = 0)
         {
-            if (id == 0)
-                return View();
+            Cliente cliente = _clienteDAO.Buscar(UsuarioInfo.Id);
 
-            
+            cliente.Animal = new List<Animal>()
+            {
+                new Animal() {Id = id }
+            };
 
-            return View();
+
+            _clienteDAO.DesfavoritarAnimal(cliente);
+
+            return RedirectToAction("MeusFavoritos");
         }
 
 

@@ -38,7 +38,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
                 new SqlParameter("@id", obj.Id)
             };
             conex.ExecutaNonQuerySP(sp, parametros);
-        } 
+        }
 
         public void Insert(Ong obj)
         {
@@ -56,7 +56,9 @@ namespace prjSeuMelhorAmicao.Models.DAL
                 new SqlParameter("@biografia", obj.Biografia),
                 new SqlParameter("@foto", obj.Foto)
             };
-            conex.ExecutaScalarSP(sp, parametros);
+
+            obj.Id = (int)conex.ExecutaScalarSP(sp, parametros);
+
         }
 
         public List<Ong> Listar(string pesquisa)
