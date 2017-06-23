@@ -99,7 +99,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
             {
                 var parametros = new List<SqlParameter>
                 {
-                    new SqlParameter("@idUsuario", cliente.ClienteId),
+                    new SqlParameter("@idUsuario", cliente.Id),
                     new SqlParameter("@IdAnimal", animal.Id),
                 };
 
@@ -116,7 +116,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
             {
                 var parametros = new List<SqlParameter>
                 {
-                    new SqlParameter("@idUsuario", cliente.ClienteId),
+                    new SqlParameter("@idUsuario", cliente.Id),
                     new SqlParameter("@IdAnimal", animal.Id),
                 };
 

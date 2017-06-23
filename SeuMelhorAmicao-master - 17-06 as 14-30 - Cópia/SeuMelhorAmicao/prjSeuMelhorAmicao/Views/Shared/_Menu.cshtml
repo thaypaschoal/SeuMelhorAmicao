@@ -1,10 +1,11 @@
 ﻿
 @if (User.Identity.IsAuthenticated)
 {
+
     string perfil = ((prjSeuMelhorAmicao.Models.Entidade.Usuario)Session["UsuarioInfo"]).Perfil.Tipo;
 
-        if (perfil == "Ong")
-        {
+    if (perfil == "Ong")
+    {
             <ul class="nav navbar-nav">
                 <li>@Html.ActionLink("Minha Ong", "MeusAnimais", "Ong")</li>
                 <li class="dropdown">

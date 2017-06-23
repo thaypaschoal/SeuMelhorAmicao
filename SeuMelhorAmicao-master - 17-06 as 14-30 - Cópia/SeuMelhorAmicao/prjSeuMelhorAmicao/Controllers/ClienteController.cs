@@ -39,7 +39,7 @@ namespace prjSeuMelhorAmicao.Controllers
         {
             if (ModelState.IsValid)
             {
-               
+
                 return View();
             }
             else
@@ -52,14 +52,17 @@ namespace prjSeuMelhorAmicao.Controllers
         public ActionResult FavoritarAnimal(int id = 0)
         {
 
-            Cliente cliente = _clienteDAO.Buscar(UsuarioInfo.Id);
-
-            cliente.Animal = new List<Animal>()
+            Cliente cliente = new Cliente()
             {
-                new Animal() {Id = id }
+                Id = UsuarioInfo.Id,
+                Animal = new List<Animal>()
+                {
+                 new Animal() {Id = id }
+                }
             };
 
-            
+
+
             _clienteDAO.FavoritarAnimal(cliente);
 
             return RedirectToAction("MeusFavoritos");
@@ -67,11 +70,15 @@ namespace prjSeuMelhorAmicao.Controllers
 
         public ActionResult DesFavoritarAnimal(int id = 0)
         {
-            Cliente cliente = _clienteDAO.Buscar(UsuarioInfo.Id);
 
-            cliente.Animal = new List<Animal>()
+
+            Cliente cliente = new Cliente()
             {
-                new Animal() {Id = id }
+                Id = UsuarioInfo.Id,
+                Animal = new List<Animal>()
+                {
+                 new Animal() {Id = id }
+                }
             };
 
 

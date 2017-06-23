@@ -55,7 +55,6 @@ namespace prjSeuMelhorAmicao.Controllers
         }
 
 
-        [HttpGet]
         public ActionResult MostraImagem(int id = 0)
         {
             Ong ong = _ongDAO.Buscar(id);

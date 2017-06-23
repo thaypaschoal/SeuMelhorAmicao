@@ -108,7 +108,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
         {
 
             if (table.Rows.Count < 1)
-                throw new Exception("ONG não encontrada");
+                return new List<Ong>();
 
 
             List<Ong> listOng = new List<Ong>();
