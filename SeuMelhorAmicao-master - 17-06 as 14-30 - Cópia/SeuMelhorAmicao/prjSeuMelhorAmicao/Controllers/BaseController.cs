@@ -9,16 +9,19 @@ namespace prjSeuMelhorAmicao.Controllers
 {
     public class BaseController : Controller
     {
-     
+
         public Usuario UsuarioInfo
         {
             get
             {
+                //HttpContext.Response.Cookies.Get();
+
                 return (Usuario)Session["UsuarioInfo"];
             }
             set
             {
-                Session["UsuarioInfo"] = value;
+                if (Session["UsuarioInfo"] == null)
+                    Session["UsuarioInfo"] = value;
             }
 
         }

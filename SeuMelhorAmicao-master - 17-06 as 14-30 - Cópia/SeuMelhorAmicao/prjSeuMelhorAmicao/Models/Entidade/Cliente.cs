@@ -18,6 +18,7 @@ namespace prjSeuMelhorAmicao.Models.Entidade
         [StringLength(1)]
         public string Genero { get; set; }
         
+        [DataType(DataType.Date)]
         public DateTime? DataNascimento { get; set; }
 
         public int Conta { get; set; }

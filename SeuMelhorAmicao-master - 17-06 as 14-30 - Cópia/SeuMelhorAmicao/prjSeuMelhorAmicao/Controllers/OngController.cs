@@ -41,6 +41,7 @@ namespace prjSeuMelhorAmicao.Controllers
         {
             if (ModelState.IsValid)
             {
+                _ongDAO.Salvar(model);
                 return View();
             }
             else

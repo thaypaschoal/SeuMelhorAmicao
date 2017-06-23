@@ -45,7 +45,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
 
             var parametros = new List<SqlParameter>
             {
-                new SqlParameter("@idAnimal", obj.Id)
+                new SqlParameter("@id", obj.Id)
             };
             conex.ExecutaNonQuerySP(sp, parametros);
         }

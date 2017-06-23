@@ -175,6 +175,18 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\cachorro.jpg" />
+    <Content Include="Content\img\catioroecat.jpg" />
+    <Content Include="Content\img\cães-e-gatos.jpg" />
+    <Content Include="Content\img\download.png" />
+    <Content Include="Content\img\logo-adoteumamigocao.png" />
+    <Content Include="Content\img\nenes.png" />
+    <Content Include="Content\img\nenes2.jpg" />
+    <Content Include="Content\img\nenes3.jpg" />
+    <Content Include="Content\img\nenes4.jpg" />
+    <Content Include="Content\img\nenesssss.jpg" />
+    <Content Include="Content\img\patinhas.jpg" />
+    <Content Include="Content\img\precos-de-cachorro.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -228,7 +240,7 @@
     <Content Include="Views\Ong\Create.cshtml" />
     <Content Include="Views\Shared\_LoginSistema.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Animal\Edit.cshtml" />
+    <Content Include="Views\Animal\Editar.cshtml" />
     <Content Include="Views\Ong\Edit.cshtml" />
     <Content Include="Views\Ong\Cliente\Create.cshtml" />
     <Content Include="Views\Ong\Cliente\Edit.cshtml" />

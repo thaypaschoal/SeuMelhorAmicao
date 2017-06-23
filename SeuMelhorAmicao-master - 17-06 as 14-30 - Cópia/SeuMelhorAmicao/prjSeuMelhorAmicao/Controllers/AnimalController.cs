@@ -19,7 +19,7 @@ namespace prjSeuMelhorAmicao.Controllers
         }
 
         [AllowAnonymous]
-        public ActionResult Index(int idOng, string pesquisa = "")
+        public ActionResult Index(int idOng = 0, string pesquisa = "")
         {
             IEnumerable<Animal> animais = _animalDAO.ListarAnimalOng(idOng);
 
@@ -103,6 +103,26 @@ namespace prjSeuMelhorAmicao.Controllers
             return File(animal.Foto, "image/jpg");
         }
 
+        public ActionResult Delete(int id = 0)
+        {
+            if (id == 0)
+                return RedirectToAction("Index", UsuarioInfo.Id);
+
+            Animal animal = _animalDAO.Buscar(id);
+
+            if(animal != null)
+            {
+                _animalDAO.Delete(animal);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Animal não encontrado");
+                return RedirectToAction("Index");
+            }
+
+            
+        }
      
     }
 
