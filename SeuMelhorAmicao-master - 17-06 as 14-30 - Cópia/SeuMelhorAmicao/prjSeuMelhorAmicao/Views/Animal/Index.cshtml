@@ -14,7 +14,7 @@
                 <img src="@Url.Action("VisualizarAnimal","Animal",new {@id = animal.Id})" alt="Imagem" height="300" width="300">
                 <div class="caption">
                     <h4>@Html.DisplayFor(model => animal.Nome)@Html.DisplayFor(model => animal.DataEntrada)</h4>
-                    <p><a href="@Url.Action("Favorit8arAnimal","Cliente", new {@id = animal.Id})" class="btn btn-success btn-xs" role="button">Favoritar</a> </p>
+                    <p><a href="@Url.Action("FavoritarAnimal","Cliente", new {@id = animal.Id})" class="btn btn-success btn-xs" role="button">Favoritar</a> </p>
                 </div>
             </div>
         </div>

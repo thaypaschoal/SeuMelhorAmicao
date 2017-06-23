@@ -16,16 +16,19 @@ namespace prjSeuMelhorAmicao.Controllers
         private readonly OngDAO _ongDAO;
         public AnimalController()
         {
+            _ongDAO = new OngDAO();
             _animalDAO = new AnimalDAO();
         }
-    
 
-            //Visualizar os animais da ong
+
+        //Visualizar os animais da ong
         [AllowAnonymous]
         public ActionResult Index(int idOng = 0, string pesquisa = "")
         {
             IEnumerable<Animal> animais = _animalDAO.ListarAnimalOng(idOng);
-            ViewBag.NomeOng = _ongDAO.Buscar(idOng).Nome;
+            var ong = _ongDAO.Buscar(idOng);
+
+            ViewBag.NomeOng = ong.Nome;
             return View(animais);
         }
 
@@ -119,7 +122,7 @@ namespace prjSeuMelhorAmicao.Controllers
 
             Animal animal = _animalDAO.Buscar(id);
 
-            if(animal != null)
+            if (animal != null)
             {
                 _animalDAO.Delete(animal);
                 return RedirectToAction("MeusAnimais", "Ong");
@@ -130,9 +133,9 @@ namespace prjSeuMelhorAmicao.Controllers
                 return RedirectToAction("Index");
             }
 
-            
+
         }
-     
+
 
 
     }
