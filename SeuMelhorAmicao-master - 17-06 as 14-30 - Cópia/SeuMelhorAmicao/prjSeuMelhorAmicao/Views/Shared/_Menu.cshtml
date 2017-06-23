@@ -1,35 +1,35 @@
 ﻿
-@if (User.Identity.IsAuthenticated)
+
+
+@{
+    var usuario = (prjSeuMelhorAmicao.Models.Entidade.Usuario)Session["UsuarioInfo"];
+    string perfil = usuario == null ? "" : usuario.Perfil.Tipo; }
+
+@if (perfil == "Ong")
 {
-
-    string perfil = ((prjSeuMelhorAmicao.Models.Entidade.Usuario)Session["UsuarioInfo"]).Perfil.Tipo;
-
-    if (perfil == "Ong")
-    {
-            <ul class="nav navbar-nav">
-                <li>@Html.ActionLink("Minha Ong", "MeusAnimais", "Ong")</li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Animais<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="@Url.Action("Cadastrar", "Animal")">Novo Animal</a></li>
-                        <li><a href="@Url.Action("MeusAnimais", "Ong")">Meus Animais</a></li>
-                        <li role="separator" class="divider"></li>
-                    </ul>
-                </li>
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Minha Ong", "MeusAnimais", "Ong")</li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Animais<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="@Url.Action("Cadastrar", "Animal")">Novo Animal</a></li>
+                <li><a href="@Url.Action("MeusAnimais", "Ong")">Meus Animais</a></li>
+                <li role="separator" class="divider"></li>
             </ul>
-        }
-        else
-        {
-            <ul class="nav navbar-nav">
-                <li>@Html.ActionLink("Visualizar Ongs", "Index", "Ong")</li>
-                <li>@Html.ActionLink("Meus Favoritos", "MeusFavoritos", "Cliente")</li>
-            </ul>
-            }
-        }
-        else
-        {
-            <ul class="nav navbar-nav">
-                <li>@Html.ActionLink("Início", "Index", "Home")</li>
-                <li>@Html.ActionLink("Sobre", "About", "Home")</li>
-            </ul>
-        }
+        </li>
+    </ul>
+}
+else if (perfil == "Cliente")
+{
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Visualizar Ongs", "Index", "Ong")</li>
+        <li>@Html.ActionLink("Meus Favoritos", "MeusFavoritos", "Cliente")</li>
+    </ul>
+}
+else
+{
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Início", "Index", "Home")</li>
+        <li>@Html.ActionLink("Sobre", "About", "Home")</li>
+    </ul>
+}

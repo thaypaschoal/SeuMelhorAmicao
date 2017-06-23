@@ -36,11 +36,11 @@
         <div class="form-group">
             @Html.LabelFor(x => x.Genero)
             @Html.DropDownListFor(x => x.Genero, new[]
-{
-        new SelectListItem() {Text = "- escolha - ", Value=""},
-        new SelectListItem() {Text = "Fêmea  ", Value="F"},
-        new SelectListItem() {Text = "Macho ", Value="M"},
-}, new { @class = "form-control" })
+            {
+            new SelectListItem() {Text = "- escolha - ", Value=""},
+            new SelectListItem() {Text = "Fêmea  ", Value="F"},
+            new SelectListItem() {Text = "Macho ", Value="M"},
+            }, new { @class = "form-control" })
             @Html.ValidationMessageFor(x => x.Genero)
 
 

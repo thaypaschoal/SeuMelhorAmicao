@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace prjSeuMelhorAmicao.Controllers
 {
@@ -14,10 +15,16 @@ namespace prjSeuMelhorAmicao.Controllers
         {
             get
             {
-                //if (HttpContext.Request.Cookies.Get("UsuarioInfo") != null)
-                //    Session["UsuarioId"] = HttpContext.Request.Cookies.Get("UsuarioInfo");
+                var usuario = (Usuario)Session["UsuarioInfo"];
+                if (usuario == null)
+                {
+                    FormsAuthentication.SignOut();
+                    Session.Clear();
+                    Session.Abandon();
+                    return new Usuario();
+                }             
 
-                return (Usuario)Session["UsuarioInfo"];
+                return usuario;
             }
             set
             {

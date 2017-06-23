@@ -1,16 +1,10 @@
-﻿using System.Web.ApplicationServices;
-
+﻿using prjSeuMelhorAmicao.Models;
+using prjSeuMelhorAmicao.Models.DAL;
 using prjSeuMelhorAmicao.Models.Entidade;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
-using System.Web.UI.WebControls;
-using prjSeuMelhorAmicao.Models.DAL;
-using prjSeuMelhorAmicao.Models;
-using System.IO;
 
 namespace prjSeuMelhorAmicao.Controllers
 {
