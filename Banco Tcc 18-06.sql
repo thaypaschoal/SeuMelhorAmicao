@@ -71,6 +71,9 @@ CREATE TABLE Favorito
 	, PRIMARY KEY(IdUsuario,IdAnimal)
 )
 GO
+SELECT * FROM Favorito
+
+SELECT * FROM Usuario
 ----------------------------------------------------------
 ----------------------PROCEDURE---------------------------
 ----------------------------------------------------------
