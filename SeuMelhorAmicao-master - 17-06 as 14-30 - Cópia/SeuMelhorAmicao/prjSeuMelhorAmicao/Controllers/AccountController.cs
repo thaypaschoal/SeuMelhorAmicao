@@ -69,6 +69,7 @@ namespace prjSeuMelhorAmicao.Controllers
             }
         }
 
+
         [AllowAnonymous]
         public ActionResult Registrar()
         {
@@ -158,10 +159,19 @@ namespace prjSeuMelhorAmicao.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        
 
-        public ActionResult VisualizarPerfil()
+        public ActionResult VisualizarPerfilOng()
         {
-            return View();
+            var ong = _ongDAO.Buscar(UsuarioInfo.Id);
+            return View(ong);
         }
+
+        public ActionResult VisualizarPerfilCliente()
+        {
+            var cliente = _clienteDAO.Buscar(UsuarioInfo.Id);
+            return View(cliente);
+        }
+
     }
 }

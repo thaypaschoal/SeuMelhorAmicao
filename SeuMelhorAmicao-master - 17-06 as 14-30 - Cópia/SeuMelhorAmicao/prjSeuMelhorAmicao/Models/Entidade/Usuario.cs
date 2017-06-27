@@ -14,14 +14,15 @@ namespace prjSeuMelhorAmicao.Models.Entidade
 
         public int Id { get; set; }
 
+        [Required]
         [StringLength(70)]
         public string Nome { get; set; }
-
+        [Required]
         [StringLength(100)]
         public string Email { get; set; }
-
         [StringLength(30)]
-        [DataType(DataType.Password)] 
+        [DataType(DataType.Password)]
+        [Required]
         public string Senha { get; set; }
 
         

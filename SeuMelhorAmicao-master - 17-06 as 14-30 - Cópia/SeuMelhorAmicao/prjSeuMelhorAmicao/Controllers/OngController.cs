@@ -2,6 +2,7 @@
 using prjSeuMelhorAmicao.Models.Entidade;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -38,14 +39,29 @@ namespace prjSeuMelhorAmicao.Controllers
             return View(animaisOng);
         }
 
+
+        public ActionResult Edit()
+        {
+            var ong = _ongDAO.Buscar(UsuarioInfo.Id);
+            return View(ong);
+        }
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Editar(Ong model)
+        public ActionResult Edit(Ong model,  HttpPostedFileBase upload)
         {
             if (ModelState.IsValid)
             {
+                if (upload != null && upload.ContentLength > 0)
+                    using (var reader = new BinaryReader(upload.InputStream))
+                    {
+                        model.Foto = reader.ReadBytes(upload.ContentLength);
+                    }
+
                 _ongDAO.Salvar(model);
-                return View();
+
+                return RedirectToAction("VisualizarPerfilOng", "Account");
             }
             else
             {

@@ -14,10 +14,10 @@ namespace prjSeuMelhorAmicao.Models.Entidade
         }
 
         public int ClienteId { get; set; }
-
+        [Required]
         [StringLength(1)]
         public string Genero { get; set; }
-        
+        [Required]
         [DataType(DataType.Date)]
         public DateTime? DataNascimento { get; set; }
 

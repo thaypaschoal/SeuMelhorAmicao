@@ -22,7 +22,8 @@ namespace prjSeuMelhorAmicao.Controllers
 
         public ActionResult Editar()
         {
-            return View();
+            var cliente = _clienteDAO.Buscar(UsuarioInfo.Id);
+            return View(cliente);
         }
 
         //Buscar favoritos do cliente
@@ -39,8 +40,8 @@ namespace prjSeuMelhorAmicao.Controllers
         {
             if (ModelState.IsValid)
             {
-
-                return View();
+                _clienteDAO.Update(model);
+                return RedirectToAction("VisualizarPerfilCliente", "Account");
             }
             else
             {

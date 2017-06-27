@@ -16,7 +16,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
         public Cliente Buscar(int id)
         {
             var conex = new ConectionFactory();
-            string sp = "spBuscarAnimal";
+            string sp = "spBuscarCliente";
 
             var parametros = new List<SqlParameter>
             {
@@ -140,11 +140,12 @@ namespace prjSeuMelhorAmicao.Models.DAL
             {
                 listOng.Add(new Cliente()
                 {
-                    //Id = Convert.ToInt32(row["Id"]),
-                    //Biografia = row["Biografia"].ToString(),
-                    //Telefone = row["Telefone"].ToString(),
-                    //Endereco = row["Endereco"].ToString(),
-                    //Foto = (byte[])row["Foto"]
+                    Id = Convert.ToInt32(row["Id"]),
+                    Nome = row["Nome"].ToString(),
+                    Email = row["Email"].ToString(),
+                    Senha = row["Senha"].ToString(),
+                    Genero = row["Genero"].ToString(),
+                    DataNascimento= Convert.ToDateTime(row["DataNascimneto"])
 
 
                 });

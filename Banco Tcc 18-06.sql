@@ -471,7 +471,8 @@ CREATE PROCEDURE spBuscarCliente
 AS
 BEGIN
 
-	SELECT	U.Nome
+	SELECT	U.Id
+		,	U.Nome
 		,	U.Email
 		,	U.Senha
 		,	C.Genero

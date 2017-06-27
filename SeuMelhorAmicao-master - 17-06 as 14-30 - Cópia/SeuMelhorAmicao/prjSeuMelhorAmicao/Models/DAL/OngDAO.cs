@@ -124,6 +124,7 @@ namespace prjSeuMelhorAmicao.Models.DAL
                     Biografia = row["Biografia"].ToString(),
                     Telefone = row["Telefone"].ToString(),
                     Endereco = row["Endereco"].ToString(),
+                    Senha = "*",
                     Foto = (byte[])row["Foto"]
                 });
             }

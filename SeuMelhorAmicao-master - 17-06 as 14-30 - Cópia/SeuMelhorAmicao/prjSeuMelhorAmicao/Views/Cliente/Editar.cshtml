@@ -1,18 +1,25 @@
 ﻿@model prjSeuMelhorAmicao.Models.Entidade.Cliente
 
 @{
-    ViewBag.Title = "Registrar";
+    ViewBag.Title = "Editar";
 }
 
+<h2>Editar</h2>
 
-@using (Html.BeginForm())
+
+@using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
-
+    
     <div class="form-horizontal">
-        <h4>Registrar Cliente</h4>
+        <h4>Cliente</h4>
         <hr />
+        @Html.HiddenFor(x => x.Id)
+        @Html.HiddenFor(x => x.Senha)
+        @Html.HiddenFor(x => x.DataNascimento)
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+      
         <div class="form-group">
             @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -29,23 +36,11 @@
             </div>
         </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.Senha, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Senha, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Senha, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.Genero, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownListFor(x => x.Genero, new[]
-{
-        new SelectListItem() {Text = "- escolha - ", Value=""},
-        new SelectListItem() {Text = "Homem", Value="H"},
-        new SelectListItem() {Text = "Mulher", Value="M"},
-}, new { @class = "form-control" })
+                @Html.EditorFor(model => model.Genero, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Genero, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -60,12 +55,11 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-default" />
             </div>
         </div>
     </div>
 }
-
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
